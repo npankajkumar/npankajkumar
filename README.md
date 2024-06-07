@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @npankajkumar
-- 👀 I’m interested in javaDevelopment || webDevelopment || Pyhton
+- 👀 I’m interested in React || javaDevelopment || webDevelopment || Pyhton
 - 🌱 I’m currently learning webDevelopment
 - 💞️ I’m looking to collaborate on openSource
 - 📫 How to reach me npankajkumar0505@gmail.com
