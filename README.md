@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @npankajkumar
-- 👀 I’m interested in React || javaDevelopment || webDevelopment || Pyhton
-- 🌱 I’m currently learning webDevelopment
+- 👀 I’m interested in Full Stack | dotnet Development | Java | Python
+- 🌱 I’m currently working on FullStack
 - 💞️ I’m looking to collaborate on openSource
 - 📫 How to reach me npankajkumar0505@gmail.com
 
