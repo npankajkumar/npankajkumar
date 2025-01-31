@@ -10,10 +10,8 @@ You can click the Preview link to take a look at your changes.
 --->
 
 
-
-# Playwright Testing Guide
-
-Welcome to our **Playwright** test suite! 🚀 This guide will help you set up, write, and run test cases effectively.
+# Playwright Testing
+ **Playwright** test suite! 🚀 This guide will help you set up, write, and run test cases effectively.
 
 ---
 
@@ -25,7 +23,7 @@ Before running tests, install all necessary packages:
 
 ````sh
 npm install
-
+````
 
 /root-folder
 │── playwright.config.ts    # Playwright configuration (baseURL, browser settings, etc.)
@@ -124,7 +122,6 @@ For better productivity, install the Playwright Test for VS Code extension by Mi
 🌍 Browser Configuration
 By default, Playwright is configured to run in Google Chrome.
 If you need to test in other browsers, modify your test file accordingly:
-
 
 test.use({ browserName: 'firefox' });
 
