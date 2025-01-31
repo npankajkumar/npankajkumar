@@ -9,9 +9,9 @@ npankajkumar/npankajkumar is a ✨ special ✨ repository because its `README.md
 You can click the Preview link to take a look at your changes.
 --->
 
-
 # Playwright Testing
- **Playwright** test suite! 🚀 This guide will help you set up, write, and run test cases effectively.
+
+**Playwright** test suite! 🚀 This guide will help you set up, write, and run test cases effectively.
 
 ---
 
@@ -21,34 +21,31 @@ You can click the Preview link to take a look at your changes.
 
 Before running tests, install all necessary packages:
 
-````sh
+```sh
 npm install
-````
+```
 
 /root-folder
-│── playwright.config.ts    # Playwright configuration (baseURL, browser settings, etc.)
-│── .gitignore              # Ignoring test artifacts
-│── package.json            # Project dependencies
-│── .env                    # Store environment variables (e.g., access token)
-│── playwright/             # All Playwright-related files live here
-│   │── tests/              # Test cases go inside this folder
-│   │── pages/              # Page object model (POM) files
-│   │── utils/              # Reusable helper functions
-│   │── test-results/       # Playwright test results (ignored in Git)
-│   │── playwright-report/  # HTML reports (ignored in Git)
-
-
+│── playwright.config.ts # Playwright configuration (baseURL, browser settings, etc.)
+│── .gitignore # Ignoring test artifacts
+│── package.json # Project dependencies
+│── .env # Store environment variables (e.g., access token)
+│── playwright/ # All Playwright-related files live here
+│ │── tests/ # Test cases go inside this folder
+│ │── pages/ # Page object model (POM) files
+│ │── utils/ # Reusable helper functions
+│ │── test-results/ # Playwright test results (ignored in Git)
+│ │── playwright-report/ # HTML reports (ignored in Git)
 
 ### 📝 Writing Test Cases
+
 Navigate to the playwright/pages folder.
 Create a separate folder for the page you are testing.
 Name your test files as <filename>.spec.ts.
 📌 Example:
 If testing the Role Setup page, create a test file:
 
-
 playwright/tests/RoleSetup.spec.ts
-
 
 # Playwright Testing Guide
 
@@ -59,12 +56,15 @@ Welcome to our **Playwright** test suite! 🚀 This guide will help you set up, 
 ## 📌 Getting Started
 
 ### 1️⃣ Install Dependencies
+
 Before running tests, install all necessary packages:
 
 ```sh
 npm install
-📂 Project Structure
+```
 
+📂 Project Structure
+```sh
 /root-folder
 │── playwright.config.ts    # Playwright configuration (baseURL, browser settings, etc.)
 │── .gitignore              # Ignoring test artifacts
@@ -77,8 +77,10 @@ npm install
 │   │── test-results/       # Playwright test results (ignored in Git)
 │   │── playwright-report/  # HTML reports (ignored in Git)
 
+```
 
-📝 Writing Test Cases
+
+###📝 Writing Test Cases
 Navigate to the playwright/pages folder.
 Create a separate folder for the page you are testing.
 Name your test files as <filename>.spec.ts.
@@ -123,8 +125,9 @@ For better productivity, install the Playwright Test for VS Code extension by Mi
 By default, Playwright is configured to run in Google Chrome.
 If you need to test in other browsers, modify your test file accordingly:
 
+```sh
 test.use({ browserName: 'firefox' });
-
+```
 
 💡 Best Practices
 ✔ Follow the Page Object Model (POM) for better test structure.
@@ -132,6 +135,7 @@ test.use({ browserName: 'firefox' });
 ✔ Use .env for secrets instead of hardcoding.
 ✔ Regularly run npx playwright test to validate all tests.
 
+```
 Happy Testing! 🎭🚀
-````
+```
 
