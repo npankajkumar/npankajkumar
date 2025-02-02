@@ -106,17 +106,17 @@ ACCESS_TOKEN = your_dev_environment_access_token
 # 🚀 Running Test Cases
 
 ```sh
-Run All Tests
+#Run All Tests
 
-# npx playwright test
+npx playwright test
 
-Run a Specific Test File
+#Run a Specific Test File
 
-# npx playwright test <file-path>
+npx playwright test <file-path>
 
 
-Example:
-#npx playwright test ./playwright/tests/RoleSetup.spec.ts
+#Example:
+npx playwright test ./playwright/tests/RoleSetup.spec.ts
 
 ```
 
