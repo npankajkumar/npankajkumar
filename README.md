@@ -17,9 +17,9 @@ Welcome to our **Playwright** test suite! 🚀 This guide will help you set up, 
 
 ## 📌 Getting Started
 
-### 1️⃣ Install Dependencies
+## Install Dependencies - playwright packages
 
-Before running tests, install all necessary packages:
+Before running tests do
 
 ```sh
 npm install
@@ -75,8 +75,8 @@ root/
 
 ## 📝 Writing Test Cases
 
-Navigate to the playwright/pages folder.
-Create a separate folder for the page you are testing.
+# Navigate to the playwright/pages folder.
+- Create a separate folder for the page you are testing.
 
 Name your test files as
 
@@ -122,7 +122,7 @@ npx playwright test ./playwright/tests/RoleSetup.spec.ts
 
 ## 🔧 Utilities & Code Organization
 
-Use the /playwright/utils/ folder for reusable functions and helper methods.
+- Use the /playwright/utils/ folder for reusable functions and helper methods.
 Keep test files clean and modular.
 
 🛠 VS Code Extensions for Easier Testing
@@ -145,7 +145,7 @@ test.use({ browserName: 'firefox' });
 2. Use .env for secrets instead of hardcoding.
 3. Regularly run npx playwright test to validate all tests.
 
-# [🎭 Learn playwright](https://allegisgroup.udemy.com/course/playwright-tutorials-automation-testing)
+-[🎭 Learn playwright](https://allegisgroup.udemy.com/course/playwright-tutorials-automation-testing)
 
 ```sh
 Happy Testing! 🎭🚀
