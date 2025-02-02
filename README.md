@@ -146,7 +146,7 @@ test.use({ browserName: 'firefox' });
 2. Use .env for secrets instead of hardcoding.
 3. Regularly run npx playwright test to validate all tests.
 
--[🎭 Learn playwright](https://allegisgroup.udemy.com/course/playwright-tutorials-automation-testing)
+# [🎭 Learn playwright](https://allegisgroup.udemy.com/course/playwright-tutorials-automation-testing)
 
 ```sh
 Happy Testing! 🎭🚀
