@@ -18,8 +18,9 @@ Welcome to our **Playwright** test suite! 🚀 This guide will help you set up, 
 ## 📌 Getting Started
 
 ## Install Dependencies - playwright packages
+- packages are already installed and configured
 
-Before running tests do
+- Before running/writing tests do
 
 ```sh
 npm install
